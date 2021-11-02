@@ -58,10 +58,9 @@ public class DatabasePerfumes {
     }
 
     public static void updateExample() throws SQLException {
-        String sql = """
-                UPDATE Perfumes
-                SET Title = 'Coco Mademoiselle'
-                WHERE Brand = 'Chanel'""";
+        String sql = "UPDATE Perfumes\n" +
+                "SET Title = 'Coco Mademoiselle'\n" +
+                "WHERE Brand = 'Chanel'";
         System.out.println("Updated: " + stmt.executeUpdate(sql));
     }
 

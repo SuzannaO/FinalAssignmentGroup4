@@ -53,7 +53,7 @@ public class DatabasePerfumes {
     }
 
     public static void insertExample() throws SQLException {
-        String sql = "INSERT INTO shoes(Brand, Title, Type, Capacity, Category) VALUES ('Christian Dior','Miss Dior',‘Eau de Parfum’, 100,'Floral')";
+        String sql = "INSERT INTO Perfumes (Brand, Title, Type, Capacity, Category) VALUES ('Christian Dior','Miss Dior',‘Eau de Parfum’, 100,'Floral')";
         System.out.println("Inserted: " + stmt.executeUpdate(sql));
     }
 

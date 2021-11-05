@@ -26,12 +26,12 @@ public class DatabasePerfumes {
             System.out.println("Please enter the scent:");
             String scent = input.next();
 
-            selecting();
+            //selecting();
             insertingValue(brand, title, type, capacityml, scent);
-            adding();
-            inserting();
-            updating();
-            deleting();
+           // adding();
+           // inserting();
+           // updating();
+            //deleting();
 
         } catch (SQLException sqlException) {
             System.out.println("Error:" + sqlException.getMessage());
